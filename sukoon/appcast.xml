@@ -3,6 +3,24 @@
     <channel>
         <title>Sukoon</title>
         <item>
+            <title>1.6</title>
+            <description><![CDATA[
+                <p>Sukoon 1.6 — location accuracy and first-run fixes, straight from user feedback.</p>
+                <ul>
+                <li><b>City search loads as you type</b> — no more pressing Return and wondering; the magnifier works too.</li>
+                <li><b>Exact city out of the box</b> — first-run setup now uses on-device Location Services (with your permission), so Dubai no longer shows up as Abu Dhabi. When the approximate mode is in use, Sukoon says so and points to the fix.</li>
+                <li><b>The onboarding Allow button always works</b> — if macOS already blocked notifications, it now takes you straight to System Settings with clear steps instead of doing nothing.</li>
+                <li><b>Travel suggestions as notifications</b> — when your country's prayer-time convention differs, you'll know without opening the popover.</li>
+                <li><b>Cleaner Arabic</b> — no more duplicated English + Arabic prayer names when the app is in Arabic, and timeline labels no longer overlap on short evenings.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 25 Jul 2026 15:30:00 +0400</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/MindMints/Sukoon-updates/releases/download/v1.6/Sukoon-1.6.zip" length="4269043" type="application/octet-stream" sparkle:edSignature="3nz+p4K0ckDlpV/T15ijJXrJN/tXmmTp9WVLUJwf1ZtAtnQEAUlY0340Kwn43dDmUq1PZjdJiHRgi/cxjAPWBA=="/>
+        </item>
+        <item>
             <title>1.5</title>
             <description><![CDATA[
                 <p>Sukoon 1.5 — a polish release from a full UI/UX audit. 31 fixes.</p>
