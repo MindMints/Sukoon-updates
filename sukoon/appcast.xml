@@ -3,6 +3,21 @@
     <channel>
         <title>Sukoon</title>
         <item>
+            <title>1.6.1</title>
+            <description><![CDATA[
+                <p>Sukoon 1.6.1 — a redesigned day timeline.</p>
+                <ul>
+                <li><b>Every prayer is labeled again</b> — 1.6 could hide Maghrib's name on the timeline; sorry about that.</li>
+                <li><b>Five evenly-spaced stations</b> — Fajr through Isha each get equal room, in Arabic and English alike, so labels never crowd or overlap. The sun still tracks real time as it travels toward the next prayer.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 25 Jul 2026 17:10:00 +0400</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/MindMints/Sukoon-updates/releases/download/v1.6.1/Sukoon-1.6.1.zip" length="4268572" type="application/octet-stream" sparkle:edSignature="iBo4obJSJYhY6Nx53WMn7U7m/qyK/ta1HJMA9H5dLGZN1Rb6V5K0BaWusO3Ats4cVs0NlHcfWfAjaUfBuFq4Bg=="/>
+        </item>
+        <item>
             <title>1.6</title>
             <description><![CDATA[
                 <p>Sukoon 1.6 — location accuracy and first-run fixes, straight from user feedback.</p>
