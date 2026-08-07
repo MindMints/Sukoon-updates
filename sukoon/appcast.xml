@@ -36,6 +36,23 @@
             <enclosure url="https://github.com/MindMints/Sukoon-updates/releases/download/v1.6/Sukoon-1.6.zip" length="4269043" type="application/octet-stream" sparkle:edSignature="3nz+p4K0ckDlpV/T15ijJXrJN/tXmmTp9WVLUJwf1ZtAtnQEAUlY0340Kwn43dDmUq1PZjdJiHRgi/cxjAPWBA=="/>
         </item>
         <item>
+            <title>1.6.2</title>
+            <description><![CDATA[
+                <p>Sukoon 1.6.2 — now also on the Mac App Store! This update brings both channels in sync.</p>
+                <ul>
+                <li><b>A dedication</b> — Sukoon is, and will always be, free: a sadaqah jariyah from its maker. The welcome screen and Settings now carry this dedication and a request for dua.</li>
+                <li><b>Gentler onboarding</b> — permissions are clearly optional, buttons say Continue, and Get Started always works.</li>
+                <li><b>Clearer location feedback</b> — Settings shows your selected city with a checkmark; the permission prompt can no longer appear behind other windows.</li>
+                <li>Timeline label fix, refreshed support page at mindmints.ai/sukoon/support, and polish throughout.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 04 Aug 2026 18:30:00 +0400</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/MindMints/Sukoon-updates/releases/download/v1.6.2/Sukoon-1.6.2.zip" length="4271248" type="application/octet-stream" sparkle:edSignature="G4Lh2/RPL3wby6nnEZJ5qYt19eH8n9oKq0WvdHUosIJck+ZhhG1Ys2dAoTKp7SNuhUaIJ0Zu3BP5+k8qZaRPAA=="/>
+        </item>
+        <item>
             <title>1.5</title>
             <description><![CDATA[
                 <p>Sukoon 1.5 — a polish release from a full UI/UX audit. 31 fixes.</p>
