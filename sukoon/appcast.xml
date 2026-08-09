@@ -3,6 +3,31 @@
     <channel>
         <title>Sukoon</title>
         <item>
+            <title>1.6.3</title>
+            <description><![CDATA[
+                <p>Sukoon 1.6.3 — a correctness release. Times, the adhan, and the widget now agree with each other, and every label meets contrast standards.</p>
+                <ul>
+                <li><b>The widget matches the app</b> — it was calculating with its own method (Umm al-Qura) instead of yours, so its times could differ from the menu bar by half an hour or more. Widgets now follow the app's method, madhab, adjustments and accent. <i>If you already have a widget on your desktop, open Edit Widget once and set Calculation Method to "Same as Sukoon app".</i></li>
+                <li><b>Cities abroad keep their own clock</b> — a saved city in another timezone showed its prayer times in <i>your</i> local clock, which made the monthly timetable unusable for it. Times, the timetable and the widget now read in the city's own time.</li>
+                <li><b>No more late adhan after sleep</b> — if your Mac slept through a prayer, the adhan could play in full hours later when you opened the lid. It now stays quiet once the moment has passed.</li>
+                <li><b>Fajr is no longer missed overnight</b> — nothing was scheduled past Isha, so a Mac that slept before midnight woke to no Fajr adhan and no notification. Tomorrow's prayers are scheduled ahead now.</li>
+                <li><b>The adhan stops being silenced all day</b> — background audio tools kept the "microphone in use" check permanently on. Sukoon now looks at which app is really capturing and names it ("Silenced — Zoom is using your microphone"), and the panel dismisses itself.</li>
+                <li><b>Mute stops the adhan that's playing</b> — the bell used to only mute the <i>next</i> one.</li>
+                <li><b>Menu bar tells the truth</b> — it announced the prayer up to a minute early, and Arabic now gets its own hour/minute letters instead of "h" and "m".</li>
+                <li><b>Readable everywhere</b> — section labels and widget text sat below the accessibility contrast minimum in both light and dark modes. Every label now clears it.</li>
+                <li><b>Clearer statistics</b> — the 14-day chart shows one mark per prayer, so a missed prayer is visible at a glance; the 12-week grid finally has weekday labels and a key; and the Qibla figures line up.</li>
+                <li><b>Widget polish</b> — the Accent setting finally does something, the progress bar moves between prayers instead of freezing, and after Isha it no longer highlights this morning's Fajr.</li>
+                <li><b>Better Turkish, Urdu, Indonesian and French</b> — countdown headings, the "mark as prayed" button, event countdowns and dates were falling back to English or reading ungrammatically.</li>
+                <li><b>Streaks survive the clocks changing</b> — your longest streak reset at daylight-saving transitions.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 09 Aug 2026 17:13:46 +0400</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/MindMints/Sukoon-updates/releases/download/v1.6.3/Sukoon-1.6.3.zip" length="4305047" type="application/octet-stream" sparkle:edSignature="BFLDXp9z+8Dm/5czqXUGXDtSTNiJzLn5aBl1kauyITM0/zA4R6s8MJhZi66hNDajQX9E2oDePO1icMxYT8xhDg=="/>
+        </item>
+        <item>
             <title>1.6.1</title>
             <description><![CDATA[
                 <p>Sukoon 1.6.1 — a redesigned day timeline.</p>
