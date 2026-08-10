@@ -3,6 +3,20 @@
     <channel>
         <title>Sukoon</title>
         <item>
+            <title>1.6.5</title>
+            <description><![CDATA[
+                <p>Sukoon 1.6.5 — the day timeline comes to the widget.</p>
+                <ul>
+                <li><b>The signature timeline, now on the large widget</b> — the sun travels the day between Fajr and Isha, exactly as in the app's popover, replacing the plain progress bar.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 10 Aug 2026 20:42:33 +0400</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.6.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/MindMints/Sukoon-updates/releases/download/v1.6.5/Sukoon-1.6.5.zip" length="4314446" type="application/octet-stream" sparkle:edSignature="5cgQvmK6qG+AB5yNzhjgBfuux8GJFjFWs9aSIG/lxQekiwNVDgkJzKjMeoOxNdDKBd1gqrugUUmpp+VZoqNGDw=="/>
+        </item>
+        <item>
             <title>1.6.4</title>
             <description><![CDATA[
                 <p>Sukoon 1.6.4 — the widget release. The desktop widget now genuinely mirrors the app.</p>
