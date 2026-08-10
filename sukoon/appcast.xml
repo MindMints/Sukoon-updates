@@ -3,6 +3,23 @@
     <channel>
         <title>Sukoon</title>
         <item>
+            <title>1.6.4</title>
+            <description><![CDATA[
+                <p>Sukoon 1.6.4 — the widget release. The desktop widget now genuinely mirrors the app.</p>
+                <ul>
+                <li><b>The widget follows the app by default</b> — city AND calculation method. It used to default to Mecca with the Umm al-Qura method regardless of your settings, so its times could disagree with the menu bar by half an hour or more. <i>If you added a widget before this update, open Edit Widget once and set City and Calculation Method to "Same as Sukoon app".</i></li>
+                <li><b>Rebuilt widget layout</b> — no more text cut off at the edges, no truncated times, a countdown you can read from across the room, and the Hijri date and iqama time on every size.</li>
+                <li><b>Widget and app can no longer disagree</b> — both now compute prayer times through one shared code path, verified by tests across every method, madhab, and high-latitude combination.</li>
+                <li><b>Sturdier refresh</b> — a slow network connection could previously stall the app's location refresh; lookups no longer stack up.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 10 Aug 2026 20:20:54 +0400</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/MindMints/Sukoon-updates/releases/download/v1.6.4/Sukoon-1.6.4.zip" length="4305507" type="application/octet-stream" sparkle:edSignature="gXD2jfT8jWYNTokfOBOOrY3fodw6pbQ2790yQkOM7Rc37lPZWUfaoaal06jeRdF+SnjpG0KykJbMASyonsLADw=="/>
+        </item>
+        <item>
             <title>1.6.3</title>
             <description><![CDATA[
                 <p>Sukoon 1.6.3 — a correctness release. Times, the adhan, and the widget now agree with each other, and every label meets contrast standards.</p>
