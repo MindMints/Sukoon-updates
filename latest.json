@@ -1,6 +1,6 @@
 {
   "version": "1.6.6",
   "build": 17,
-  "notes": "Adhan Widget is now Sukoon — now notarized (no security warnings). Download this update once — after that, updates install automatically.",
+  "notes": "Sukoon 1.6.6 — the adhan panel's buttons now actually work. Stop and Dismiss respond to the whole button instead of just the thin ring around it. Your music now pauses for the adhan and resumes afterwards. And being muted in a meeting no longer means a full-volume adhan. Note: Adhan Widget is now Sukoon — download this update once, and after that updates install automatically.",
   "url": "https://github.com/MindMints/Sukoon-updates/releases/latest"
 }
