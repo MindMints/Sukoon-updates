@@ -3,6 +3,23 @@
     <channel>
         <title>Sukoon</title>
         <item>
+            <title>1.6.6</title>
+            <description><![CDATA[
+                <p>Sukoon 1.6.6 — the adhan panel's buttons now actually work.</p>
+                <ul>
+                <li><b>Stop and Dismiss respond to the whole button</b> — the round controls on the adhan panel only registered clicks on the thin ring around them and on the small icon itself, so most clicks landing squarely inside them did nothing. After the adhan, where Dismiss is the only control, the panel could feel completely stuck. The same fix applies to every outlined button elsewhere, including the dropdowns in Settings, whose chevron was not clickable at all.</li>
+                <li><b>Your music pauses for the adhan, then comes back</b> — new in Settings › Adhan, on by default. Whatever is playing — Music, Spotify, a video — is paused when the adhan starts and resumed when it ends, and the panel tells you which app it paused. If nothing is playing, nothing is touched.</li>
+                <li><b>Muted in a meeting no longer means a full-volume adhan</b> — “Silence adhan during calls” previously watched only the microphone, so being muted — or presenting, having never unmuted — could let the adhan play into the room. Sukoon now also recognises a conferencing app that is holding your speakers, and says so.</li>
+                <li><b>At home on macOS 26 and later</b> — the menu-bar icon stays legible against the transparent menu bar while the adhan plays, and corners throughout the app follow the rounder system chrome. Nothing changes on macOS 14 and 15.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 21 Sep 2026 21:14:36 +0400</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/MindMints/Sukoon-updates/releases/download/v1.6.6/Sukoon-1.6.6.zip" length="4267542" type="application/octet-stream" sparkle:edSignature="D4AKO1P7Ep7REJp5IRg4+QoOjeVmgYF6yanTNP/aaso1LSubf+zRby3/Pln/ibfu7TdTc76uNURHqw/g3G1BAA=="/>
+        </item>
+        <item>
             <title>1.6.5</title>
             <description><![CDATA[
                 <p>Sukoon 1.6.5 — the day timeline comes to the widget.</p>
